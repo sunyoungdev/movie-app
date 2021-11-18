@@ -13,7 +13,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 5rem;
+  margin: 2rem 0 3rem;
   &__item {
     display: flex;
     flex-basis: 48%;
@@ -44,6 +44,7 @@
   }
 }
 
+// tablet
 @media (max-width: 960px) {
   body {
     font-size: 14px;
@@ -58,6 +59,7 @@
   }
 }
 
+// mobile
 @media (max-width: 480px) {
   .movie {
     &__item {
